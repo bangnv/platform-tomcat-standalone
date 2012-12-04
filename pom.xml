@@ -43,7 +43,7 @@
     <org.exoplatform.social.version>4.0.0.Alpha1-kill-exobuild-SNAPSHOT</org.exoplatform.social.version>
     <org.exoplatform.webos.version>4.0.0.Alpha1-SNAPSHOT</org.exoplatform.webos.version>
     <org.exoplatform.wiki.version>4.0.0.Alpha1-kill-exobuild-SNAPSHOT</org.exoplatform.wiki.version>
-    <org.gatein.portal.version>3.4.0.Final</org.gatein.portal.version>
+    <org.gatein.portal.version>3.5.0.Final</org.gatein.portal.version>
     <!-- SLF4J version to use to wrap all loggers in our product and its dependencies -->
     <org.slf4j.version>1.7.2</org.slf4j.version>
     <!-- LOGBACK implementation to use to manage logs -->
@@ -495,7 +495,7 @@
       <version>${org.exoplatform.ide.version}</version>
       <type>war</type>
     </dependency>
-    <!-- used by org.exoplatform.portal:exo.portal.web.portal and org.exoplatform.portal:exo.portal.web.rest but not declared -->
+    <!-- used by org.gatein.portal:exo.portal.web.portal and org.gatein.portal:exo.portal.web.rest but not declared -->
     <dependency>
       <groupId>org.exoplatform.jcr</groupId>
       <artifactId>exo.jcr.framework.web</artifactId>
@@ -670,54 +670,54 @@
     </dependency>
     <!-- org.exoplatform.management.RestManagementProvider used but not declared in GateIn ? -->
     <dependency>
-      <groupId>org.exoplatform.portal</groupId>
+      <groupId>org.gatein.portal</groupId>
       <artifactId>exo.portal.component.management</artifactId>
       <version>${org.gatein.portal.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.exoplatform.portal</groupId>
+      <groupId>org.gatein.portal</groupId>
       <artifactId>exo.portal.eXoGadgets</artifactId>
       <version>${org.gatein.portal.version}</version>
       <type>war</type>
     </dependency>
     <dependency>
-      <groupId>org.exoplatform.portal</groupId>
+      <groupId>org.gatein.portal</groupId>
       <artifactId>exo.portal.gadgets-server</artifactId>
       <version>${org.gatein.portal.version}</version>
       <type>war</type>
     </dependency>
     <dependency>
-      <groupId>org.exoplatform.portal</groupId>
+      <groupId>org.gatein.portal</groupId>
       <artifactId>exo.portal.portlet.dashboard</artifactId>
       <version>${org.gatein.portal.version}</version>
       <type>war</type>
     </dependency>
     <dependency>
-      <groupId>org.exoplatform.portal</groupId>
+      <groupId>org.gatein.portal</groupId>
       <artifactId>exo.portal.portlet.exoadmin</artifactId>
       <version>${org.gatein.portal.version}</version>
       <type>war</type>
     </dependency>
     <dependency>
-      <groupId>org.exoplatform.portal</groupId>
+      <groupId>org.gatein.portal</groupId>
       <artifactId>exo.portal.portlet.web</artifactId>
       <version>${org.gatein.portal.version}</version>
       <type>war</type>
     </dependency>
     <dependency>
-      <groupId>org.exoplatform.portal</groupId>
+      <groupId>org.gatein.portal</groupId>
       <artifactId>exo.portal.web.eXoResources</artifactId>
       <version>${org.gatein.portal.version}</version>
       <type>war</type>
     </dependency>
     <dependency>
-      <groupId>org.exoplatform.portal</groupId>
+      <groupId>org.gatein.portal</groupId>
       <artifactId>exo.portal.web.portal</artifactId>
       <version>${org.gatein.portal.version}</version>
       <type>war</type>
     </dependency>
     <dependency>
-      <groupId>org.exoplatform.portal</groupId>
+      <groupId>org.gatein.portal</groupId>
       <artifactId>exo.portal.web.rest</artifactId>
       <version>${org.gatein.portal.version}</version>
       <type>war</type>
