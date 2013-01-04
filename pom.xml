@@ -43,9 +43,25 @@
     <!-- Additional LOGBACK dependencies -->
     <org.codehaus.janino.version>2.6.1</org.codehaus.janino.version>
     <org.fusesource.jansi.version>1.9</org.fusesource.jansi.version>
+ <org.juzu.version>0.6.0-beta5</org.juzu.version>
   </properties>
   <dependencyManagement>
     <dependencies>
+<dependency>
+    <groupId>org.juzu</groupId>
+        <artifactId>juzu-core</artifactId>
+        <version>${org.juzu.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.juzu</groupId>
+        <artifactId>juzu-bom-core</artifactId>
+        <version>${org.juzu.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.juzu</groupId>
+        <artifactId>juzu-plugins-portlet</artifactId>
+        <version>${org.juzu.version}</version>
+      </dependency>
       <!-- Import versions from crsh project -->
       <dependency>
         <groupId>org.crsh</groupId>
@@ -576,6 +592,16 @@
     <dependency>
       <groupId>org.exoplatform.social</groupId>
       <artifactId>social-webapp-resources</artifactId>
+      <type>pom</type>
+    </dependency>
+    <dependency>
+      <groupId>org.exoplatform.social</groupId>
+      <artifactId>social-webapp-juzu-portlet</artifactId>
+      <type>war</type>
+    </dependency>
+     <dependency>
+      <groupId>org.exoplatform.social</groupId>
+      <artifactId>social-webapp-juzu-portlet</artifactId>
       <type>pom</type>
     </dependency>
     <dependency>
