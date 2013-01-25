@@ -73,6 +73,17 @@
       <version>${ch.qas.logback.version}</version>
     </dependency>
     <!-- Additional Tomcat JAR to allow to fix JMX ports. Useful when the server is behind a firewall -->
+
+ <dependency>
+      <groupId>org.exoplatform.platform</groupId>
+      <artifactId>platform-extension-portlet-branding</artifactId>
+      <type>war</type>
+    </dependency>
+    <dependency>
+      <groupId>org.exoplatform.platform</groupId>
+      <artifactId>platform-extension-portlet-branding</artifactId>
+      <type>pom</type>
+    </dependency>
     <dependency>
       <groupId>org.apache.tomcat</groupId>
       <artifactId>tomcat-catalina-jmx-remote</artifactId>
